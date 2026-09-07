@@ -1,0 +1,66 @@
+# Locally generated audit reports
+reports/
+*.log
+*.etl
+*.evtx
+
+# Local account, group, or identity exports
+*account*.csv
+*account*.json
+*account*.xml
+*group*.csv
+*group*.json
+*group*.xml
+*identity*.csv
+*identity*.json
+*identity*.xml
+
+# Credentials, secrets, certificates, and recovery information
+.env
+.env.*
+*.secret
+*.token
+*.key
+*.pem
+*.pfx
+*.p12
+*.cer
+*.crt
+*.kdbx
+*.rdp
+*.ovpn
+
+# PowerShell and user-specific files
+*.ps1.user
+*.psd1.user
+*.ps1xml.user
+*.clixml
+
+# Local configuration files
+*.local
+local-settings.json
+settings.local.json
+appsettings.Local.json
+appsettings.Development.json
+
+# Archives and potentially sensitive exports
+*.zip
+*.7z
+*.rar
+*.bak
+*.tmp
+
+# Screenshots and recordings
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.mp4
+*.mov
+
+# Windows and editor artifacts
+Thumbs.db
+Desktop.ini
+~$*
+.vscode/
