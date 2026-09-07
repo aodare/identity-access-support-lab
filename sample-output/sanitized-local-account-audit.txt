@@ -1,0 +1,51 @@
+Identity and Access Support Lab - Local Account Audit
+Generated (local time): 2026-09-07 17:10:00
+Computer name: LAB-IAM-01
+
+========================================================================
+Audit Scope
+========================================================================
+
+This is a read-only local account and group inventory.
+No accounts, passwords, permissions, or group memberships are changed.
+This report is fictional and sanitized for portfolio demonstration.
+
+========================================================================
+Local User Accounts
+========================================================================
+
+Name              Enabled Description                          LastLogon              PasswordLastSet        PasswordExpires UserMayChangePassword SID
+----              ------- -----------                          ---------              ---------------        --------------- --------------------- ---
+Administrator     False   Built-in account for administration  01/01/2026 08:00:00    01/01/2026 08:00:00  False           True                  S-1-5-21-0000000000-0000000000-0000000000-500
+DefaultAccount    False   System-managed account               N/A                    N/A                    False           False                 S-1-5-21-0000000000-0000000000-0000000000-503
+demo.support      True    Fictional standard support account   09/07/2026 09:10:00    08/15/2026 10:00:00  False           True                  S-1-5-21-0000000000-0000000000-0000000000-1001
+Guest             False   Built-in guest account               N/A                    N/A                    False           False                 S-1-5-21-0000000000-0000000000-0000000000-501
+WDAGUtilityAccount False  System-managed application account   N/A                    N/A                    False           False                 S-1-5-21-0000000000-0000000000-0000000000-504
+
+========================================================================
+Local Security Groups
+========================================================================
+
+Name                   Description                                      SID
+----                   -----------                                      ---
+Administrators         Administrators have full control of the computer S-1-5-32-544
+Remote Desktop Users   Members can sign in through Remote Desktop       S-1-5-32-555
+Users                  Standard local user access                       S-1-5-32-545
+
+========================================================================
+Local Administrators Group Membership
+========================================================================
+
+Name                         ObjectClass PrincipalSource SID
+----                         ----------- --------------- ---
+LAB-IAM-01\Administrator     User        Local           S-1-5-21-0000000000-0000000000-0000000000-500
+LAB-IAM-01\demo.support      User        Local           S-1-5-21-0000000000-0000000000-0000000000-1001
+
+========================================================================
+Audit Notes
+========================================================================
+
+This report is fictional and sanitized for portfolio demonstration.
+All computer names, account names, account metadata, timestamps, and security identifiers are placeholders.
+Review and sanitize all real audit output before sharing.
+Do not modify accounts or group memberships solely from this report; use approved authorization and change procedures.
