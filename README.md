@@ -108,14 +108,14 @@ Generated reports are written to the local `reports/` directory, which is exclud
 - Identity verification, MFA protection, audit awareness, and escalation judgment.
 - Privacy-aware documentation and support-ticket writing.
 
-## Planned Documentation
+## Documentation
 
-- User onboarding workflow.
-- User offboarding workflow.
-- Password reset and account lockout playbook.
-- Access request and approval workflow.
-- Fictional identity-support ticket examples.
-- Sanitized local account audit sample output.
+- [User onboarding workflow](docs/user-onboarding.md)
+- [User offboarding workflow](docs/user-offboarding.md)
+- [Password reset and account lockout playbook](docs/password-and-lockout-playbook.md)
+- [Access request and approval workflow](docs/access-request-workflow.md)
+- [Fictional identity-support ticket examples](docs/ticket-examples.md)
+- [Sanitized local account audit sample output](sample-output/sanitized-local-account-audit.txt)
 
 ## Disclaimer
 
